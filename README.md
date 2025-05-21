@@ -9,15 +9,28 @@ Vai trò: Là đối tượng điều khiển chính trong game, do người ch�
 Thuộc tính: Vị trí, tốc độ di chuyển, máu (HP), trạng thái (đang đứng, tấn công...), hoạt ảnh (animation).
 Hành vi: Di chuyển trái/phải, tấn công, nhận sát thương, tương tác với vật phẩm hoặc NPC.
 
+ Sơ đồ Behavioural Diagram-Sequence Diagram — Hành vi Nhân vật chính (Player):
+ ![Sequence Diagram Hành vi Nhân vật chính (Player)](https://github.com/user-attachments/assets/c94e5512-3f82-4b44-8dfd-76625a01c7ab)
+
+
 - Kẻ thù (Enemy):
 Vai trò: Gây thử thách cho người chơi, tạo nên tính đối kháng và tăng độ khó.
 Thuộc tính: Vị trí, sát thương, máu, phạm vi phát hiện người chơi, hoạt ảnh.
 Hành vi: Tuần tra, đuổi theo người chơi, tấn công khi đến gần, chết khi hết máu.
 
+Sơ đồ Behavioural Diagram- Activity Diagram — Hành vi Kẻ thù (Enemy):
+![522d8907-ed9d-49c9-ae5a-c56d992e6aa7](https://github.com/user-attachments/assets/006a425b-e9e8-4d1f-b03c-5d0e8faa5d13)
+
+
+
 - Vật phẩm (Item):
 Vai trò: Hỗ trợ người chơi trong quá trình chơi game, tăng tính hấp dẫn và khám phá.
 Thuộc tính: Loại vật phẩm (hồi máu, tăng tốc độ, chìa khóa...), vị trí, hiệu ứng khi nhặt.
 Hành vi: Nằm cố định trên bản đồ, biến mất khi được nhặt, kích hoạt hiệu ứng hỗ trợ cho người chơi.
+
+Sơ đồ Behavioural Diagram-Activity Diagram: Hành vi Kẻ thù (Enemy):
+![tải xuống](https://github.com/user-attachments/assets/9dba6ec5-13e2-4adb-9b64-fbb91475060c)
+
 
 
 III - Cấu trúc Folder.
