@@ -13,6 +13,7 @@ public class NPC_Vlad extends Entity {
         speed = 1;
 
         getImage();
+        setDialogue();
     }
     public void getImage() {
 
@@ -24,6 +25,14 @@ public class NPC_Vlad extends Entity {
         left2 = setup("/npc/vlad_left_2");
         right1 = setup("/npc/vlad_right_1");
         right2 = setup("/npc/vlad_right_2");
+    }
+
+    public void setDialogue() {
+
+        dialogue[0] = "Hello Lilius";
+        dialogue[1] = "So you've come to this island to find the treasure?";
+        dialogue[2] = "I used to be a great wizard but now...\nI'm a bit too old for talking an adventure";
+        dialogue[3] = "Well, good luck on you !!!";
     }
 
     public void setAction() {
@@ -49,7 +58,10 @@ public class NPC_Vlad extends Entity {
 
             actionLockCounter = 0;
         }
+    }
+    public void speak() {
 
-
+        // Do this character specific stuff
+        super.speak();
     }
 }
